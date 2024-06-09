@@ -14,5 +14,4 @@
 model1 <- function(x,y){
   resultreg<- lm(y~x)
   return(resultreg$coefficients)
-
 }
