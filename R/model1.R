@@ -9,6 +9,7 @@
 #' @examples
 #' x <- c(1,3,4,5,8,10)
 #' y <- c(4,6,8,7,10,16)
+#' plot(x,y,type="b")
 #' model1(x,y)
 model1 <- function(x,y){
   lm(y~x)
