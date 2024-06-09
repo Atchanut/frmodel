@@ -3,7 +3,7 @@
 #' @param x an independent variable
 #' @param y a dependent or response variable
 #'
-#' @return regression coeficient
+#' @return regression coefficients
 #' @export
 #'
 #' @examples
@@ -12,5 +12,7 @@
 #' plot(x,y,type="b")
 #' model1(x,y)
 model1 <- function(x,y){
-  lm(y~x)
+  resultreg<- lm(y~x)
+  return(resultreg$coefficients)
+
 }
