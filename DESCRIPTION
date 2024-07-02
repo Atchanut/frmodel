@@ -5,8 +5,8 @@ Version: 0.1.0
 Authors@R: person("Atchanut", "Rattanalertnusorn", email = "atchanut_r@rmutt.ac.th",
   role = c("aut", "cre"))
 Maintainer: Atchanut Rattanalertnusorn <atchanut_r@rmutt.ac.th>
-Description: Linear regression models and
-    fuzzy linear regression models based on alpha-cut method.
+Description: Parameter estimation of linear regression models and
+    parameter estimation of fuzzy linear regression models based on alpha-cut method.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
