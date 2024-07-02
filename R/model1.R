@@ -12,6 +12,6 @@
 #' y <- c(4,6,8,7,10,16)
 #' model1(x,y)
 model1 <- function(x,y){
-  resultreg<- lm(y~x)
-  return(resultreg$coefficients)
+  resreg<- lm(y~x)
+  return(resreg$coefficients)
 }
