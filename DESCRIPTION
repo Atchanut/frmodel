@@ -10,6 +10,7 @@ Description: Linear regression models and
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
+Language: en-US
 URL: https://github.com/Atchanut/frmodel
 BugReports: https://github.com/Atchanut/frmodel/issues
 RoxygenNote: 7.3.1
