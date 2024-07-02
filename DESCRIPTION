@@ -1,6 +1,6 @@
 Package: frmodel
 Type: Package
-Title: Fuzzy Regression Models  
+Title: Parameter Estimation of Fuzzy Regression Models  
 Version: 0.1.0
 Authors@R: person("Atchanut", "Rattanalertnusorn", email = "atchanut_r@rmutt.ac.th",
   role = c("aut", "cre"))
