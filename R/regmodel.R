@@ -9,8 +9,10 @@
 #' @return \code{B} is a matrix of regression coefficients with dimension \code{px1}, where
 #' the first element is intercept (\code{b0})
 #' the second, the third,... be regression coefficient corresponding to \code{x1, x2,...,xk}, respectively.
-
+#'
 #' @export
+#'
+#' @references Myers, Raymond H.; Milton, Janet S.(1991) A First Course in the Theory of Linear Statistical Models. PWS-KENT Pub. Co, Boston.
 #'
 #' @examples
 #' x1 <- c(25,40,50,45,35,28,34,52,38,41,27,50)

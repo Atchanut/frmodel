@@ -26,3 +26,6 @@ y <- c(3,4.2,4.8,4.5,4.5,3.5,4,5.5,4.6,5,4,4.8)
 X <- as.matrix(data.frame(x0=1,x1,x2))
 regmodel(X,y)
 }
+\references{
+Myers, Raymond H.; Milton, Janet S.(1991) A First Course in the Theory of Linear Statistical Models. PWS-KENT Pub. Co, Boston.
+}
