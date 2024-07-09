@@ -13,8 +13,8 @@ regmodel(X, y)
 }
 \value{
 \code{B} is a matrix of regression coefficients with dimension \code{px1}, where
-the first element is intercept (\code{b0})
-the second, the third,... be regression coefficient corresponding to \code{x1, x2,...,xk}, respectively.
+\code{the first element} is intercept (\code{b0})
+\code{the second element}, \code{the third element},...,\code{the k element} be regression coefficient \code{b1, b2,...,bk} corresponding to \code{x1, x2,...,xk}, respectively.
 }
 \description{
 To fit simple and multiple linear regression  model
