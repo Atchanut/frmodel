@@ -7,15 +7,17 @@
 regmodel(X, y)
 }
 \arguments{
-\item{X}{a matrix of independent variables with dimension nxp, where p is the number of independent variable (k) + 1}
+\item{X}{a matrix of independent variables with dimension \code{nxp}, where \code{p} is the number of independent variable (\code{k}) + 1}
 
-\item{y}{a vector of dependent variable (or response variable) with dimension nx1}
+\item{y}{a vector of dependent variable (or response variable) with dimension \code{nx1}}
 }
 \value{
-regression coefficients
+\code{B} is a matrix of regression coefficients with dimension \code{px1}, where
+the first element is intercept (\code{b0})
+the second, the third,... be regression coefficient corresponding to \code{x1, x2,...,xk}, respectively.
 }
 \description{
-To study how to fit simple and multiple linear regression  model
+To fit simple and multiple linear regression  model
 }
 \examples{
 x1 <- c(25,40,50,45,35,28,34,52,38,41,27,50)

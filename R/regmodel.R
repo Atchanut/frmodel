@@ -1,15 +1,17 @@
 #' Classical linear regression  model
 #'
 #' @description
-#' To study how to fit simple and multiple linear regression  model
+#' To fit simple and multiple linear regression  model
 #'
-#' @param X a matrix of independent variables with dimension nxp, where p is the number of independent variable (k) + 1
-#' @param y a vector of dependent variable (or response variable) with dimension nx1
+#' @param X a matrix of independent variables with dimension \code{nxp}, where \code{p} is the number of independent variable (\code{k}) + 1
+#' @param y a vector of dependent variable (or response variable) with dimension \code{nx1}
 #'
-#' @return regression coefficients
+#' @return \code{B} is a matrix of regression coefficients with dimension \code{px1}, where
+#' the first element is intercept (\code{b0})
+#' the second, the third,... be regression coefficient corresponding to \code{x1, x2,...,xk}, respectively.
+
 #' @export
 #'
-#' @importFrom stats lm
 #' @examples
 #' x1 <- c(25,40,50,45,35,28,34,52,38,41,27,50)
 #' x2 <- c(4,1,0.5,0.5,2,4.5,2,0.5,2.6,1,4.5,0.5)
